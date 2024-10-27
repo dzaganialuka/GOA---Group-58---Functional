@@ -1,0 +1,7 @@
+print("luka")
+print("inga")
+print("edika")
+print("toma")
+print("ani")
+print("mate")
+print("lana")
