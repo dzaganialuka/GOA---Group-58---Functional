@@ -1,2 +1,7 @@
-#bug- ბაგი არის შეცდომა.რომლის გამოც კოდის გაშვება ვერ ცერხდება
-#debugging- დებაგერის მეშვეობით შეგვიძლია დავაკვირდეთ კოდის გაშვების პროცესს
+print("luka")
+print("inga")
+print("edika")
+print("toma")
+print("ani")
+print("mate")
+print("lana")

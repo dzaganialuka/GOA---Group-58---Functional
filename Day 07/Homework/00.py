@@ -1,7 +1,7 @@
-count = 0
-passcode=1234
-userpass=0
-while userpass !=passcode :
-    userpass=int(input("enter passcode : "))
-while userpass == passcode :
-    print("acces granted")
+name = "luka"
+age = 19
+height = 184.5
+
+print (type(name))
+print (type(age))
+print (type(height))

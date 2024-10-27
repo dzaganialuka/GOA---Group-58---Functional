@@ -1,5 +1,5 @@
-total = 0
-for number in range(1,101):
-    total+=number
-    print(number)
-print("sum " , total)
+pin = (int(input("enter passcode :")))
+if pin == 1234:
+    print("correct")
+else:
+    print("try again")

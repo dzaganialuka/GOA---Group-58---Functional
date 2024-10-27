@@ -1,3 +1,2 @@
-number =  int(input("enter number: "))
-number2 = int(input("enter number: "))
-print(max (number, number2))
+for i in range(20, 0, -1):
+    print(i)

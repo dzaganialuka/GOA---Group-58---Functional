@@ -1,2 +1,2 @@
-age = int(input("enter your age : " ))
-print(type(age))
+age = int(input("enter your age : "))
+print(age + 20)

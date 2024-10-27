@@ -1,7 +1,6 @@
-for i in range(1,101):
-    if i % 3 == 0:
-        print("fizz")
-    if i % 5 == 0:
-        print("buzz")
-    if i % 5 == 0  and i % 3 == 0 :
-        print("fizzbuzz") 
+sum = 0
+numbers = range(1,21,1)
+for number in numbers:
+    if number % 2 == 1:
+        sum += number
+print(sum)

@@ -1,16 +1,17 @@
-n = input("Please enter a number:")
-    
+secret_pass = "luka1234"
+user_pass = ''
 
-def is_prime(a):
-    x = True 
-    for i in (2, a):
-        while x:
-            if a%i == 0:
-                x = False
-            else:
-                x = True
+tries = 3
 
-    if x:
-        print ("prime")
+while tries > 0 and user_pass != secret_pass:
+    user_pass = input("Enter your password (you have " + str(tries) + " tries left): ")
+    tries = tries - 1
+
+    if user_pass == secret_pass:
+        print("Access granted!")
+    elif tries == 0:
+        print("You've reached the maximum number of tries. Access denied!")
     else:
-        print ("not prime")
+        print("Access denied! Try again.")
+
+    #batoni lluka

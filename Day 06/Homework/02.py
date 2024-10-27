@@ -1,2 +1,3 @@
-for i in range(20, 0, -1):
-    print(i)
+num1 = int(input("enter number :"  ))
+num2 = int(input("enter number :"))
+print(num1 > num2)

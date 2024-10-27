@@ -1,5 +1,5 @@
 total = 0
-for number in range(1,51):
+for number in range(1,101):
     total+=number
     print(number)
 print("sum " , total)

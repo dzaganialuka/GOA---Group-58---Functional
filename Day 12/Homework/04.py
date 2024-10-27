@@ -1,0 +1,1 @@
+print(True or False and 5 > 3 or "name" == "name" and 123 == "123" and 5 >= 5)

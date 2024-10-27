@@ -1,3 +1,3 @@
-even = (1,20,2)
-odd =  (0,20,2)
-print (sum(even) or sum(odd ))
+number =  int(input("enter number: "))
+number2 = int(input("enter number: "))
+print(max (number, number2))

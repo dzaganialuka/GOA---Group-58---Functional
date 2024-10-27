@@ -1,6 +1,5 @@
-
-number = 1 
-while number <= 30: 
-    if number % 3 == 0: 
-        print(number) 
-    number += 1
+num = (int(input("enter number : ")))
+if num == 3:
+    print("you won") 
+else :
+    print("try again")    

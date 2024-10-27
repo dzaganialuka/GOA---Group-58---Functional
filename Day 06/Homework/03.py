@@ -1,5 +1,5 @@
-total = 0
-for number in range(1,51):
-    total+=number
-    print(number)
-print("sum " , total)
+age =  int(input("enter yuor age : "))
+if age >= 18 :
+    print("you are adult")
+else :
+    print("you are kid")
